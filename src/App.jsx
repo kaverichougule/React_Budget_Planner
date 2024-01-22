@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import Budget from './Components/Budget'
-
+import './App.css';
+import Budget from './Components/Budget';
+import AddExpenses from './Components/AddExpenses';
+import Context from './Components/Context';
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
-    <div>
+    <Context>
       <Budget />
-    </div>
+      <AddExpenses />
+    </Context>
   )
 }
 

@@ -1,0 +1,9 @@
+.row{
+    display: flex;
+    gap: 3rem;
+}
+.col{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
