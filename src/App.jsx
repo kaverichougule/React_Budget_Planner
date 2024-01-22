@@ -6,8 +6,10 @@ function App() {
   
   return (
     <Context>
-      <Budget />
-      <AddExpenses />
+      <div className="app">
+        <Budget />
+        <AddExpenses />
+      </div>
     </Context>
   )
 }

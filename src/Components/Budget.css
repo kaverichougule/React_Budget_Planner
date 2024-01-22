@@ -1,3 +1,13 @@
+.BudgetPlannerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
 .row{
     display: flex;
     gap: 3rem;

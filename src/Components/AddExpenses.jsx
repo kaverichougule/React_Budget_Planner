@@ -5,8 +5,8 @@ import {useOurContext} from './Context';
 function AddExpenses() {
   let ctx=useOurContext();
   return (
-    <div>
-      <Expenses />
+    <div className="displayAdd">
+      
       <h2>Add Expenses</h2>
       <div className="addingElements">
         <form action="" onSubmit={(event)=>{
@@ -24,6 +24,8 @@ function AddExpenses() {
           <button>Save</button>
         </form>
       </div>
+
+      <Expenses />
     </div>
   );
 }

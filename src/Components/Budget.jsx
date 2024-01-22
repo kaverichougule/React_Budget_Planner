@@ -4,7 +4,7 @@ import {useOurContext} from './Context';
 function Budget() {
   let ctx=useOurContext();
   return (
-    <div>
+    <div className="BudgetPlannerContainer">
       <h2>My Budget Planner</h2>
       <div class="container text-center">
         <div class="row">

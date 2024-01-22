@@ -1,3 +1,9 @@
+.expensesContainer{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
 .expensesDisplay{
     display: flex;
     flex-direction: column;
